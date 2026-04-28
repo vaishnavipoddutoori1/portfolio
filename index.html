@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+</head>
+<body>
+    <nav>
+            <h2><b>PODDUTOORI VAISHNAVI</b></h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </nav>
+    <section id="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am an aspiring software professional with a strong interest in frontend development 
+                and problem solving. I have skills in <b>Web Technologies (HTML, CSS, JavaScript), SQL, and Python</b>. 
+                I enjoy building responsive web applications and working with databases to manage and analyze data.
+                <br><br>
+                As a fresher, I am continuously learning new technologies and improving my skills by 
+                building projects. I am highly motivated to start my career in a dynamic environment 
+                where I can contribute, grow, and gain real-world experience.
+                </p>
+        </div>
+        <div class="about-image">
+            <img src="./Assets/profilephoto.jpeg" alt="profile">
+        </div>
+    </div>
+</section>
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Building structured web pages</p>
+        </div>
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Styling responsive layouts</p>
+        </div>
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Basic interactivity & logic</p>
+        </div>
+        <div class="skill-card">
+            <h3>SQL</h3>
+            <p>Database handling & queries</p>
+        </div>
+        <div class="skill-card">
+            <h3>Python</h3>
+            <p>Basic programming & problem solving</p>
+        </div>
+    </div>
+</section>
+<section class="intro">
+    <div class="intro-container">
+        <div class="intro-text">
+            <h1>Hi, I'm <span>Vaishnavi</span> 👋</h1>
+            <h2 class="typing">Frontend Developer</h2>
+            <p>
+                I build clean, responsive, and modern websites using 
+                HTML, CSS, and JavaScript.
+            </p>
+            <div class="intro-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#" class="btn secondary">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio built using HTML, CSS with glass UI design.</p>
+            <div class="project-links">
+                <a href="https://vaishnavipoddutoori1.github.io/portfolio/">Live</a>
+                <a href="https://github.com/vaishnavipoddutoori1/portfolio.git">GitHub</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <h3>Task Manager Web App</h3>
+            <p>Task management application with local storage and interactive UI.</p>
+            <div class="project-links">
+                <a href="https://vaishnavipoddutoori1.github.io/todo-app/" target="_blank">Live</a>
+                <a href="https://github.com/vaishnavipoddutoori1/todo-app" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+    <p>If you'd like to work together or have any questions, feel free to reach out 👇</p>
+    <form class="contact-form" onsubmit="handleSubmit(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+    <div class="contact-links">
+      <a href="mailto:vaishnavipoddutoori1@gmail.com">Email</a>
+      <a href="https://github.com/vaishnavipoddutoori1" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/vaishnavi-poddutoori-a83124357/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</section>
+<script>
+function handleSubmit(e) {
+    e.preventDefault();
+    alert("Message sent successfully! 🚀");
+}
+</script>
+<footer>
+  <p>© 2026 Poddutoori Vaishnavi | All Rights Reserved</p>
+</footer>
+</body>
+</html>
